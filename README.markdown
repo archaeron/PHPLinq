@@ -7,34 +7,8 @@ Still without much functionality and not tested.
 Usage
 -----
 
-    $sample_data = array
-	(
-		array
-		(
-			'id' => 4,
-			'price' => 200,
-			'name' => 'bicycle'
-		),
-		array
-		(
-			'id' => 5,
-			'price' => 300,
-			'name' => 'dog'
-		),
-		array
-		(
-			'id' => 2,
-			'price' => 700,
-			'name' => 'car'
-		),
-		array
-		(
-			'id' => 6,
-			'price' => 400,
-			'name' => 'computer'
-		),
-	);
-	
+    ```php
+    <?php	
     $query = new PHPQuery();
 	
     $query->from($sample_data);
@@ -47,17 +21,11 @@ Usage
     {
         var_dump($elem);
     }
+    ?>
+    ```
     
-    // result
-    array(2) {
-      ["id"]=>
-      int(4)
-      ["name"]=>
-      string(7) "bicycle"
-    }
-    array(2) {
-      ["id"]=>
-      int(6)
-      ["name"]=>
-      string(8) "computer"
-    }
+Documentation
+
+See the [wiki][wiki] for more help
+
+[wiki]: https://github.com/archaeron/PHPLinq/wiki
