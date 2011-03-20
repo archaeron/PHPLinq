@@ -23,6 +23,7 @@ Usage
     ?>
     
 Documentation
+-------------
 
 See the [wiki][wiki] for more help
 
