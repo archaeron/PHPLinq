@@ -7,7 +7,6 @@ Still without much functionality and not tested.
 Usage
 -----
 
-    ```php
     <?php	
     $query = new PHPQuery();
 	
@@ -22,7 +21,6 @@ Usage
         var_dump($elem);
     }
     ?>
-    ```
     
 Documentation
 
